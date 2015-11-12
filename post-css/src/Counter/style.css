@@ -1,0 +1,12 @@
+.counter {
+  background-color: #EEE;
+  padding: 5px;
+}
+
+.counter--darkred {
+  color: darkred;
+}
+
+.counter--pink {
+  color: pink;
+}
