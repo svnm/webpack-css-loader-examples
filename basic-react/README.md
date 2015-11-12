@@ -1,4 +1,4 @@
-React Transform Example
+Basic React Example
 =====================
 
 This example is to show off basic use of css-loader as documented in the [webpack docs](https://christianalfoni.github.io/react-webpack-cookbook/Loading-CSS.html).

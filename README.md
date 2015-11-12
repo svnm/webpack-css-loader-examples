@@ -46,6 +46,8 @@ deku
     "express": "^4.13.3",
     "postcss-color-rebeccapurple": "^1.1.0",
     "postcss-loader": "^0.4.3",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
     "style-loader": "^0.12.3",
     "webpack": "^1.9.6",
     "webpack-dev-middleware": "^1.2.0"

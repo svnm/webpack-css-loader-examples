@@ -8,7 +8,7 @@ express()
     res.sendFile(path.join(__dirname, '/index.html'))
   })
   .listen(port, function () {
-  	console.log(process.env)
+  	/* console.log(process.env) */
     console.log('Listening on ' + port + '.')
     console.log('Go to <http://localhost:' + port + '> in your browser.')
   })

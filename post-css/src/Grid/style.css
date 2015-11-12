@@ -1,0 +1,9 @@
+.Grid {
+  display: flex;
+  background-color: rgba(147,128,108,.1); 
+  padding: 10px;
+}
+
+.Grid__cell {
+  flex: 1;
+}
