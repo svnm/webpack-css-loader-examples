@@ -10,7 +10,7 @@ To change over from just using css-loader to use css modules update your css loa
 from
 
 ```json
-      { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ },
+      { test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ }
 ```
 
 to
