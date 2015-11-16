@@ -7,17 +7,17 @@ Note that this does not cover css-modules, it is simple for adding css imports t
 
 To change over from just using **css-loader** to use **css modules** update your css loader from 
 
-from
+**from**
 
 `{ test: /\.js$/, loader: 'babel-loader', exclude: /node_modules/ }`
 
-to
+**to**
 
 `{ test: /\.css$/, loader: ExtractTextPlugin.extract('style-loader', 'css-loader?modules&importLoaders=1&localIdentName=[name]__[local]___[hash:base64:5]!postcss-loader') }`
 
-**and in your components**
+and in your components
 
-from
+**from**
 
 ```js
 import './style.css';
@@ -25,7 +25,7 @@ import './style.css';
 className="counter"
 ```
 
-to
+**to**
 
 ```js
 import styles from './AddFriendInput.css';
