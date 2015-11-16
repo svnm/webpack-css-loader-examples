@@ -3,7 +3,7 @@ Basic React Example
 
 This example is to show off basic use of css-loader as documented in the [webpack docs](https://christianalfoni.github.io/react-webpack-cookbook/Loading-CSS.html).
 
-Note that this does not cover css-modules, it is simple for adding css imports to your deku components. You can use this method and stick to [BEM](https://css-tricks.com/bem-101/) for naming convention in your components, or you can try out the awesome css-module example
+Note that this does not cover css-modules, it is simple for adding css imports to your deku components. You can use this method and stick to [BEM](https://css-tricks.com/bem-101/) for naming convention in your components, or you can try out the awesome css-modules:
 
 To change over from just using **css-loader** to use **css modules** update your css loader from 
 
